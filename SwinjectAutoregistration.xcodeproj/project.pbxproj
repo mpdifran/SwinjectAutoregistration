@@ -20,6 +20,15 @@
 		983909E71E4F4A9D00A00E04 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909DB1E4F4A1D00A00E04 /* Swinject.framework */; };
 		983909E91E4F4AA100A00E04 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909E81E4F4AA100A00E04 /* Quick.framework */; };
 		983909EB1E4F4AA500A00E04 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909EA1E4F4AA500A00E04 /* Nimble.framework */; };
+		98FACFE71E4F569400F1149C /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 983909E01E4F4A8400A00E04 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98FACFE81E4F569400F1149C /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 983909DE1E4F4A7F00A00E04 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98FACFEC1E4F569400F1149C /* Swinject.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 983909D51E4F49EC00A00E04 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98FACFF01E4F572800F1149C /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 983909E51E4F4A9400A00E04 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98FACFF11E4F572800F1149C /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 983909E31E4F4A9000A00E04 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98FACFF51E4F572800F1149C /* Swinject.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 983909D91E4F4A0F00A00E04 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98FACFFA1E4F576000F1149C /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 983909EA1E4F4AA500A00E04 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98FACFFB1E4F576000F1149C /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 983909E81E4F4AA100A00E04 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98FAD0001E4F576000F1149C /* Swinject.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 983909DB1E4F4A1D00A00E04 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AC11910A1E301CD200B112D9 /* Warning.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1191091E301CD200B112D9 /* Warning.swift */; };
 		AC1191191E301E3A00B112D9 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1191171E301E3A00B112D9 /* Resolver.swift */; };
 		AC11911A1E301E3A00B112D9 /* CheckResolved.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1191181E301E3A00B112D9 /* CheckResolved.swift */; };
@@ -89,6 +98,48 @@
 			remoteInfo = "SwinjectAutoregistration-OSX";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		98FACFE21E4F568800F1149C /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				98FACFE71E4F569400F1149C /* Nimble.framework in Copy Frameworks */,
+				98FACFE81E4F569400F1149C /* Quick.framework in Copy Frameworks */,
+				98FACFEC1E4F569400F1149C /* Swinject.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FACFED1E4F56EE00F1149C /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				98FACFF01E4F572800F1149C /* Nimble.framework in Copy Frameworks */,
+				98FACFF11E4F572800F1149C /* Quick.framework in Copy Frameworks */,
+				98FACFF51E4F572800F1149C /* Swinject.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FACFF81E4F573500F1149C /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				98FACFFA1E4F576000F1149C /* Nimble.framework in Copy Frameworks */,
+				98FACFFB1E4F576000F1149C /* Quick.framework in Copy Frameworks */,
+				98FAD0001E4F576000F1149C /* Swinject.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		983909D51E4F49EC00A00E04 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
@@ -458,6 +509,7 @@
 				CD5B9EC61D832D5A007ED05F /* Sources */,
 				CD5B9EC71D832D5A007ED05F /* Frameworks */,
 				CD5B9EC81D832D5A007ED05F /* Resources */,
+				98FACFE21E4F568800F1149C /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -512,6 +564,7 @@
 				CD5B9F051D8334BA007ED05F /* Sources */,
 				CD5B9F061D8334BA007ED05F /* Frameworks */,
 				CD5B9F071D8334BA007ED05F /* Resources */,
+				98FACFED1E4F56EE00F1149C /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -548,6 +601,7 @@
 				CD5B9F2D1D833711007ED05F /* Sources */,
 				CD5B9F2E1D833711007ED05F /* Frameworks */,
 				CD5B9F2F1D833711007ED05F /* Resources */,
+				98FACFF81E4F573500F1149C /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
