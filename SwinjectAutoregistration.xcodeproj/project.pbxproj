@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		983909D61E4F49EC00A00E04 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909D51E4F49EC00A00E04 /* Swinject.framework */; };
+		983909D81E4F4A0200A00E04 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909D71E4F4A0200A00E04 /* Swinject.framework */; };
+		983909DA1E4F4A0F00A00E04 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909D91E4F4A0F00A00E04 /* Swinject.framework */; };
+		983909DC1E4F4A1D00A00E04 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909DB1E4F4A1D00A00E04 /* Swinject.framework */; };
+		983909DD1E4F4A7A00A00E04 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909D51E4F49EC00A00E04 /* Swinject.framework */; };
+		983909DF1E4F4A7F00A00E04 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909DE1E4F4A7F00A00E04 /* Quick.framework */; };
+		983909E11E4F4A8400A00E04 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909E01E4F4A8400A00E04 /* Nimble.framework */; };
+		983909E21E4F4A8D00A00E04 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909D91E4F4A0F00A00E04 /* Swinject.framework */; };
+		983909E41E4F4A9000A00E04 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909E31E4F4A9000A00E04 /* Quick.framework */; };
+		983909E61E4F4A9400A00E04 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909E51E4F4A9400A00E04 /* Nimble.framework */; };
+		983909E71E4F4A9D00A00E04 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909DB1E4F4A1D00A00E04 /* Swinject.framework */; };
+		983909E91E4F4AA100A00E04 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909E81E4F4AA100A00E04 /* Quick.framework */; };
+		983909EB1E4F4AA500A00E04 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983909EA1E4F4AA500A00E04 /* Nimble.framework */; };
 		AC11910A1E301CD200B112D9 /* Warning.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1191091E301CD200B112D9 /* Warning.swift */; };
 		AC1191191E301E3A00B112D9 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1191171E301E3A00B112D9 /* Resolver.swift */; };
 		AC11911A1E301E3A00B112D9 /* CheckResolved.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1191181E301E3A00B112D9 /* CheckResolved.swift */; };
@@ -78,6 +91,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		983909D51E4F49EC00A00E04 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
+		983909D71E4F4A0200A00E04 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/watchOS/Swinject.framework; sourceTree = "<group>"; };
+		983909D91E4F4A0F00A00E04 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/tvOS/Swinject.framework; sourceTree = "<group>"; };
+		983909DB1E4F4A1D00A00E04 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/Mac/Swinject.framework; sourceTree = "<group>"; };
+		983909DE1E4F4A7F00A00E04 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		983909E01E4F4A8400A00E04 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		983909E31E4F4A9000A00E04 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/tvOS/Quick.framework; sourceTree = "<group>"; };
+		983909E51E4F4A9400A00E04 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/tvOS/Nimble.framework; sourceTree = "<group>"; };
+		983909E81E4F4AA100A00E04 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		983909EA1E4F4AA500A00E04 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
 		AC1191091E301CD200B112D9 /* Warning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Warning.swift; sourceTree = "<group>"; };
 		AC1191171E301E3A00B112D9 /* Resolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
 		AC1191181E301E3A00B112D9 /* CheckResolved.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckResolved.swift; sourceTree = "<group>"; };
@@ -113,15 +136,15 @@
 		CD5B9EB31D832C81007ED05F /* watchOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Base.xcconfig"; sourceTree = "<group>"; };
 		CD5B9EB41D832C81007ED05F /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
 		CD5B9EB51D832C81007ED05F /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		CD5B9EC01D832D5A007ED05F /* SwinjectAutoregistration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwinjectAutoregistration.framework; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5B9EC01D832D5A007ED05F /* SwinjectAutoregistration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwinjectAutoregistration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5B9ECA1D832D5A007ED05F /* SwinjectAutoregistration-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwinjectAutoregistration-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5B9ED81D832E18007ED05F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD5B9ED91D832E18007ED05F /* SwinjectAutoregistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwinjectAutoregistration.h; sourceTree = "<group>"; };
 		CD5B9EDD1D832E2E007ED05F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD5B9EF01D83323F007ED05F /* SwinjectAutoregistration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwinjectAutoregistration.framework; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD5B9F001D8334BA007ED05F /* SwinjectAutoregistration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwinjectAutoregistration.framework; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5B9EF01D83323F007ED05F /* SwinjectAutoregistration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwinjectAutoregistration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5B9F001D8334BA007ED05F /* SwinjectAutoregistration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwinjectAutoregistration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5B9F091D8334BA007ED05F /* SwinjectAutoregistration-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwinjectAutoregistration-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD5B9F281D833711007ED05F /* SwinjectAutoregistration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwinjectAutoregistration.framework; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5B9F281D833711007ED05F /* SwinjectAutoregistration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwinjectAutoregistration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5B9F311D833711007ED05F /* SwinjectAutoregistration-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwinjectAutoregistration-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983909D61E4F49EC00A00E04 /* Swinject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD5B9ECB1D832D5A007ED05F /* SwinjectAutoregistration.framework in Frameworks */,
+				983909DD1E4F4A7A00A00E04 /* Swinject.framework in Frameworks */,
+				983909DF1E4F4A7F00A00E04 /* Quick.framework in Frameworks */,
+				983909E11E4F4A8400A00E04 /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983909D81E4F4A0200A00E04 /* Swinject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983909DA1E4F4A0F00A00E04 /* Swinject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +189,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD5B9F0A1D8334BA007ED05F /* SwinjectAutoregistration.framework in Frameworks */,
+				983909E21E4F4A8D00A00E04 /* Swinject.framework in Frameworks */,
+				983909E41E4F4A9000A00E04 /* Quick.framework in Frameworks */,
+				983909E61E4F4A9400A00E04 /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983909DC1E4F4A1D00A00E04 /* Swinject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,12 +208,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD5B9F761D833A15007ED05F /* SwinjectAutoregistration.framework in Frameworks */,
+				983909E71E4F4A9D00A00E04 /* Swinject.framework in Frameworks */,
+				983909E91E4F4AA100A00E04 /* Quick.framework in Frameworks */,
+				983909EB1E4F4AA500A00E04 /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		985488181E4F48FD009781BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				983909EA1E4F4AA500A00E04 /* Nimble.framework */,
+				983909E81E4F4AA100A00E04 /* Quick.framework */,
+				983909E51E4F4A9400A00E04 /* Nimble.framework */,
+				983909E31E4F4A9000A00E04 /* Quick.framework */,
+				983909E01E4F4A8400A00E04 /* Nimble.framework */,
+				983909DE1E4F4A7F00A00E04 /* Quick.framework */,
+				983909DB1E4F4A1D00A00E04 /* Swinject.framework */,
+				983909D91E4F4A0F00A00E04 /* Swinject.framework */,
+				983909D71E4F4A0200A00E04 /* Swinject.framework */,
+				983909D51E4F49EC00A00E04 /* Swinject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC4AC9471E33C70900E6355A /* Parser */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +260,7 @@
 				CD5B9E8E1D832BF9007ED05F /* Tests */,
 				CD5B9EC11D832D5A007ED05F /* Products */,
 				CD5B9E211D832A20007ED05F /* Configurations */,
+				985488181E4F48FD009781BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -748,6 +802,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD5B9E301D832A4F007ED05F /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swinject.SwinjectAutoregistration-iOS";
 			};
@@ -757,6 +815,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD5B9E301D832A4F007ED05F /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swinject.SwinjectAutoregistration-iOS";
 			};
@@ -786,6 +848,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -836,6 +902,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -859,6 +929,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD5B9EB41D832C81007ED05F /* watchOS-Framework.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.swinject.SwinjectAutoregistration-watchOS";
 			};
@@ -868,6 +942,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD5B9EB41D832C81007ED05F /* watchOS-Framework.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.swinject.SwinjectAutoregistration-watchOS";
 			};
@@ -877,6 +955,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD5B9E3B1D832A4F007ED05F /* tvOS-Framework.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.swinject.SwinjectAutoregistration-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -887,6 +969,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD5B9E3B1D832A4F007ED05F /* tvOS-Framework.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.swinject.SwinjectAutoregistration-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -916,6 +1002,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -965,6 +1055,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -988,6 +1082,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD5B9E361D832A4F007ED05F /* Mac-Framework.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.swinject.SwinjectAutoregistration-OSX";
 			};
@@ -997,6 +1095,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD5B9E361D832A4F007ED05F /* Mac-Framework.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.swinject.SwinjectAutoregistration-OSX";
 			};
@@ -1027,6 +1129,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1078,6 +1184,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
